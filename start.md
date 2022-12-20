@@ -1,6 +1,4 @@
 
-## [Slik lager du et kursrepositorie](readme_no.html){:target="blank"} (Slettes)
-
 
 ## Kursplan  
 
@@ -14,16 +12,15 @@ Innleveringsplanen gir oppgaver, frister og ressurser i forbindelse med obligato
 
 [Timeplan](https://timeplan.uit.no/){:target="blank"} på timeplan.uit.no
 
+## Kursbeskrivelse
+Kurset SOK-2011 har som mål å gi deg kunnskap, ferdigheter og kompetanse innenfor temaet "Økonomisk vekst og bærekraftig utvikling". På kurset vil du lære teorier om hva som driver økonomisk vekst på lang sikt og hvilke faktorer som begrenser veksten i den materielle velferden. Du vil i tillegg lære deg å evaluere teorien ved bruk av empirisk analyse. Til sist vil kurset gi en innføring i bærekraftig utvikling.
 
-## Kursbeskrivelse 
-
-
-Kurset består av ulike interessante tema  
+Kurset er delt opp i X moduler:
+ - Introduksjon til 
 
 
 ## Faglærerinfo  
-- [Derek J. Clark](https://uit.no/ansatte/derek.clark){:target="blank"} (fagansvarlig)
-- [Espen Sirnes](https://uit.no/ansatte/person?p_document_id=41418){:target="blank"}
+- [Andrea Mannberg](https://uit.no/ansatte/andrea.mannberg){:target="blank"} (fagansvarlig)
 
 
 
@@ -35,6 +32,8 @@ For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>.
 ## Pensum  
 
 ### Pensum til forelesningene
+
+- Peter N. Hess. Economic Growth and Sustainable Development. Second edition. Routledge. 2016.
 
 [Leganto](https://bibsys-c.alma.exlibrisgroup.com/leganto/){:target="blank"}  
 
