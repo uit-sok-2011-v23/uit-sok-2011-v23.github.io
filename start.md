@@ -15,8 +15,6 @@ Innleveringsplanen gir oppgaver, frister og ressurser i forbindelse med obligato
 ## Kursbeskrivelse
 Kurset SOK-2011 har som mål å gi deg kunnskap, ferdigheter og kompetanse innenfor temaet "Økonomisk vekst og bærekraftig utvikling". På kurset vil du lære teorier om hva som driver økonomisk vekst på lang sikt og hvilke faktorer som begrenser veksten i den materielle velferden. Du vil i tillegg lære deg å evaluere teorien ved bruk av empirisk analyse. Til sist vil kurset gi en innføring i bærekraftig utvikling.
 
-Kurset er delt opp i X moduler:
- - Introduksjon til 
 
 
 ## Faglærerinfo  
