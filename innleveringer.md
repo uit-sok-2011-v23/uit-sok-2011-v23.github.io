@@ -16,7 +16,7 @@
 |Arbeidskrav 2.2                     | 17.04.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 0         |1 (Individuell) | kommer    |
 |Mappeoppgave 1                      | 01.05.2023 kl 23.59| Skriftlig innevering   | Økonomisk vekst | 30%       |1 (Individuell) | kommer    |
 |Mappeoppgave 2                      | 01.05.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 30%       |1 (Individuell) | kommer    |
-|Mappeoppgave 3                      | 26.05.2023 kl 23.59| Podkast (lyd og bilde) | Bærekraftig utvikling | 30% |1 (Individuell) | kommer    |
+|Mappeoppgave 3                      | 26.05.2023 kl 23.59| Podkast (lyd og bilde) | Bærekraftig utvikling | 30% |2 | kommer    |
 
 
 
