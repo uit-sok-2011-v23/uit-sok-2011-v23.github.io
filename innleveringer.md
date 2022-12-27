@@ -41,11 +41,11 @@ Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de
 **Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utfs){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student). 
 
 ### Mappeopggave 3
-Mappeoppgave 3 består i det å lage en podcast. Temaet for podkasten skal være bærekraftig utvikling. 
+Mappeoppgave 3 består i det å lage en podkast. Temaet for podkasten skal være bærekraftig utvikling. 
 
 Podkasten skal ta opp og prøve å besvare følgende spørsmål:
 
-* Hva er bærekraftig utvikling for noe? 
+* Hva snakker vi om når vi snakker om bærekraftig utvikling? 
 * Hvorfor er bærekraftig utvikling viktig på lang sikt? 
 * Hvilke konflikter i insentiver finnes det for enkelte land på kort sikt?
 * Hva kan vi gjøre for å håndtere utfordringene knyttet til bærekraftig utvikling? 
