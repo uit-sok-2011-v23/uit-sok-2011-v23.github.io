@@ -1,4 +1,4 @@
-{% include navbar_open.html %}{% include top-box.html %}
+{% include navbar_closed.html %}{% include top-box.html %}
 # Innleveringer
 
 ## Innleveringsplan
