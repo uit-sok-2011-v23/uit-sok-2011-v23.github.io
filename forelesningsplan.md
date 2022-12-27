@@ -1,4 +1,4 @@
-{% include navbar_open.html %}{% include top-box.html %}
+{% include navbar_closed.html %}{% include top-box.html %}
 # Forelesningsplan  
 
 **Informasjonsmøte** om sok-2011 finner sted i 11.01.2023 kl 10:15   
