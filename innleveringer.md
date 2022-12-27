@@ -21,18 +21,44 @@
 |Mappeoppgave 3                      | 26.05.2023 kl 23.59| Podkast (lyd og bilde) | Bærekraftig utvikling | 30% |2 | kommer    |
 
 ## Oppgaver
+
+De to første mappeoppgavene på kurset sok-2011 vil sammen lage en hovedoppgave på temaet økonomisk vekst. Hovedoppgaven vil ha en lignende struktur som en Bachelor-oppgave. **Hovedoppgaven skal ikke overskride 5000 ord** (eksklusive referanser og ekstramateriale). Du finner en instruksjon til hovedoppgaven her (lenke). 
+
 ### Mappeoppgave 1
-Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, teori, og metode og data) i en "hovedoppgave" som, når den er klar, vil ligne på en Bacheloroppgave. Du finner en instruksjon til hovedoppgaven her (lenke). 
+Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, teori, og metode og data) i hovedoppgaven. Mappeoppgaven 1 skal skrives individuelt. Oppgaven teller 30% til sluttkarakter på kurset (maks 12 poeng).
 
 #### Arbeidskrav 1.1 og 1.2
-Arbeidskrav 1.1 består i det å laste opp et første utkast til mappeopggave 1 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de tre første seksjonene. 
+**Arbeidskrav 1.1** består i det å laste opp et første utkast til mappeopggave 1 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de tre første seksjonene. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
 
-Arbeidskrav 1.2 består i det å gi "feed-forward" til en annen student. 
+**Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf1){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student)
 
 ### Mappeoppgave 2
-Mappeoppgave 2 består i det å skrive de siste to seksjonene (resultat og diskusjon) i hovedoppgaven. Du finner en instruksjon til hovedoppgaven her (lenke). 
+Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de siste to seksjonene (resultat og diskusjon) i hovedoppgaven. Mappeoppgaven 1 skal skrives individuelt. Oppgaven teller 30% til sluttkarakter på kurset (maks 12 poeng).
 
 #### Arbeidskrav 2.1 og 2.2
+**Arbeidskrav 2.1** består i det å laste opp et første utkast til mappeopggave 2 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de to siste seksjonene. Inkludere hele oppgaven (de tre første og de tre siste seksjonene) i filen. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
+
+**Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utfs){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student). 
+
 ### Mappeopggave 3
+Mappeoppgave 3 består i det å lage en podcast. Temaet for podkasten skal være bærekraftig utvikling. 
+
+Podkasten skal ta opp og prøve å besvare følgende spørsmål:
+
+* Hva er bærekraftig utvikling for noe? 
+* Hvorfor er bærekraftig utvikling viktig på lang sikt? 
+* Hvilke konflikter i insentiver finnes det for enkelte land på kort sikt?
+* Hva kan vi gjøre for å håndtere utfordringene knyttet til bærekraftig utvikling? 
+  * Hvilken rolle kan private markeder og regjeringer ta? 
+  * Er det forskjell mellom fattige og rike land?
+
+Podkasten skal ikke være lengre enn 30 minutter. Podkasten skal gjennomføres i grupper om to. 
+
+For å øke rettsikkerheten skal alle grupper levere inn en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
 
 
+**Bidragserklæring – eksempel**
+
+A.B. og B.C. diskuterte innholdet i oppgave ved et oppstartsmøte (møte 1, dato). A.B. skrev første utkast (utkast 1) til podkasten. B.C. leste utkast 1 og kom med forslag til endringer i opplegget (utkast 2). På møte 2 (dato) tok A.B. og B.C. sammen fram utkast 3. Podkasten ble spillet inn ved bruk av programvaren X, dato. Podkasten hadde følgende deler: 1) Hva er bærekraftig vekst? 2) Hvorfor er bærekraftig vekst viktig? 3) Hvilke konflikter i insentiver finnes det for økonomier på kort sikt? 4) Hva kan vi gjøre for å håndtere utfordringene knyttet til bærekraftig utvikling? 
+
+A.B. hadde hovedansvar for innholdet i del 1 og 2. B.C. hadde hovedansvar for å ta fram innholdet i del 3 og 4. Innholdet i alle deler ble diskutert i gruppen. B.C hadde hovedansvar for programvare til innspilling. A.B. hadde hovedansvar for editering av lydfilen. 
