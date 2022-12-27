@@ -52,7 +52,7 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
   * Hvilken rolle kan private markeder og regjeringer ta? 
   * Er det forskjell mellom fattige og rike land?
 
-Podkasten skal ikke være lengre enn 30 minutter. Podkasten skal gjennomføres i grupper om to. 
+**Podkasten skal være maks 30 minutter. Podkasten skal gjennomføres i grupper om to.** 
 
 For å øke rettsikkerheten skal alle grupper levere inn en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
 
