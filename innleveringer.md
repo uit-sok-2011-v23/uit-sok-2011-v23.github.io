@@ -33,7 +33,7 @@ Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, 
 **Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf1){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student)
 
 ### Mappeoppgave 2
-Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de siste to seksjonene (resultat og diskusjon) i hovedoppgaven. Mappeoppgaven 1 skal skrives individuelt. Oppgaven teller 30% til sluttkarakter på kurset (maks 12 poeng).
+Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de siste to seksjonene (resultat og diskusjon) i hovedoppgaven. Mappeoppgaven 2 skal skrives individuelt. Oppgaven teller 30% til sluttkarakter på kurset (maks 12 poeng).
 
 #### Arbeidskrav 2.1 og 2.2
 **Arbeidskrav 2.1** består i det å laste opp et første utkast til mappeopggave 2 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de to siste seksjonene. Inkludere hele oppgaven (de tre første og de tre siste seksjonene) i filen. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
