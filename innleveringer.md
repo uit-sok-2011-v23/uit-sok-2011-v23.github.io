@@ -50,7 +50,7 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
 * Hvilke konflikter i insentiver finnes det for enkelte land på kort sikt?
 * Hva kan vi gjøre for å håndtere utfordringene knyttet til bærekraftig utvikling? 
   * Hvilken rolle kan private markeder og regjeringer ta? 
-  * Er det forskjell mellom fattige og rike land?
+  * Er det viktige forskjeller mellom fattige og rike land i evne og ansvar i det å håndtere utfordringene vi står innfor?
 
 **Podkasten skal være maks 30 minutter. Podkasten skal gjennomføres i grupper om to.** 
 
