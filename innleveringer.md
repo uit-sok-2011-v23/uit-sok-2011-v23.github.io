@@ -54,6 +54,8 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
 
 **Podkasten skal være maks 30 minutter. Podkasten skal gjennomføres i grupper om to.** 
 
+Podkasten skal tas opp med både lyd og bilde. Dere kan bruke Teams til å ta opp podkasten. Det er lov å bruke andre programvarer (se [eksempler](https://www.sorryonmute.com/best-free-podcast-editing-software/). Det viktige er at lyd-filen har høy kvalitet. Formålet med bild-filen er fremst å verifisere at det er dere som har laget podkasten. Det er likevel lov å bruke bild-filen til å presentere visuelt materiale. 
+
 For å øke rettsikkerheten skal alle grupper levere inn en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
 
 
