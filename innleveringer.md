@@ -23,7 +23,7 @@
 ## Oppgaver
 
 De to første mappeoppgavene på kurset sok-2011 vil sammen lage en hovedoppgave på temaet økonomisk vekst. Hovedoppgaven vil ha en lignende struktur som en Bachelor-oppgave. **Hovedoppgaven skal ikke overskride 5000 ord** (eksklusive referanser og ekstramateriale). Du finner en instruksjon til hovedoppgaven 
-[her](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment_1.html)
+[her.](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)
 
 ### Mappeoppgave 1
 Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, teori, og metode og data) i hovedoppgaven. Mappeoppgaven 1 skal skrives individuelt. Oppgaven teller 30% til sluttkarakter på kurset (maks 12 poeng).
