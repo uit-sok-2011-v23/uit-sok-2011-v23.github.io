@@ -7,7 +7,7 @@
 - Mappeinnleveringer er obligatoriske, og danner grunnlag for karakter A-F på kurset.
   - **For å få godkjent karakter på kurset må du få godkjent karakter (A-E) på alle deler i mappen.**  
 - Skriftlige mappeoppgaver leveres i [Wiseflow](https://europe.wiseflow.net/participant/){:target="blank"}. 
-- Arbeidskrav leveres på Canvas.
+- Arbeidskrav leveres i Canvas.
 
 
 | Type oppgave                       | Innleveringsfrist  | Format                 | Tema            | Andel av karakter |Gruppestørrelse | Ressurser |
