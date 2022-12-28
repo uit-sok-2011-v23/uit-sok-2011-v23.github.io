@@ -81,12 +81,14 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 - God definisjon av hva økonomisk vekst er og hvordan det måles. 
 - God diskusjon av hvorfor det er interessant å se på økonomisk vekst, inklusive eksempler på hvordan økonomisk vekst korrelerer med andre mål på velferd. 
 -	God diskusjon av problemer knyttet til å bruke nivå på og vekst i BNP per innbygger som mål på velferd. 
+
 **Teori:**
 - Tydelig redegjørelse for antakelser/forutsetninger for Solow-modellen
 - Grafisk illustrasjon av tilpasning til steady-state i Solow-modellen (med eller uten teknologisk utvikling og naturressurser).
 - Beskrivelse av og økonomisk intuisjon til hvordan sparing/investeringer, befolkningsvekst, teknologi og uttømning av naturressurser på virker nivå på og vekst i BNP per innbygger på lang sikt. 
 - Dersom teori-seksjonen inneholder matematiske utledninger, er disse enkle å følge og riktige. Små slurvefeil er akseptable. 
 - Prediksjonene fra modellen er tydelig gjort rede for. 
+
 **Metode og data:**
 - Tydelig oversikt over datakilder brukt i den empiriske analysen.
 - Beskrivelse og forklaring av variabler brukt i analysen. 
@@ -110,6 +112,7 @@ Maks poeng: 12 (33% av karakter)
 ### Eksempel på en oppgave med karakter A – B
 **Overgripende:**
 Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnementene er logiske og enkle å følge. Referansene er korrekte, og stilen er konsekvent.  Alle referanser i teksten er med i referanselisten og vice versa. Kode er opplastet på GitHub og lenket til i oppgaven. 
+
 **Resultat:**
 - Deskriptiv statistikk
   - Seksjonen inneholder en tabell med deskriptiv statistikk for de brukte variablene
@@ -131,7 +134,7 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 -	God diskusjon av implikasjoner for policy (politiske inngrep) for å oppnå bærekraftig vekst. 
 
 ### Eksempel på årsaker til at en oppgave får karakter E – F
--	Teksten er svært rotete skrevet. Det er svært vanskelig å følge resonnement. 
+-	Teksten er svært rotete skrevet. Det er svært vanskelig å følge resonnementene. 
 -	Seksjoner i oppgaven mangler
 -	Det er fundamentale feil i noen av seksjonene
 -	Tabeller mangler
