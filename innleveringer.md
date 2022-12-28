@@ -116,12 +116,13 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
   - Seksjonen inneholder figurer som illustrerer sammenhengen mellom BNP per innbygger, sparing, utdanning og befolkningsvekst
   - Tabeller og figurer er enkle å tolke
   - Seksjonen inneholder beskrivelse av tabeller og figurer i tekst
--	Økonometrisk analyse
-  -	Seksjonen inneholder en tabell med resultatene fra regresjonsanalysen
-  -	Tabellen er enkel å tolke
+- Økonometrisk analyse
+  - Seksjonen inneholder en tabell med resultatene fra regresjonsanalysen
+  - Tabellen(e) er enkle å tolke
   - Regresjonsmodellen er korrekt spesifisert
-  - Resultatene i tabellen er beskrevne og tolkete i teksten
+  - Alle resultatene i tabellen er beskrevne og tolkete i teksten
   - Dersom resultatene er overraskende («feil» tegn etc.) er dette nevnt i teksten.
+
 **Diskusjon:**
 -	God diskusjon av i hvilken grad resultatene støtter prediksjonene fra Solow-modellen
 -	God tolkning av resultatene
