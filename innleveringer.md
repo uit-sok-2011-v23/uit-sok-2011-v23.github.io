@@ -15,7 +15,7 @@
 |Arbeidskrav 1.1                     | 27.02.2023 kl 08.00| Skriftlig innevering   | Økonomisk vekst | 0         |1 (Individuell) |    |
 |Arbeidskrav 1.2                     | 03.03.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 0         |1 (Individuell) |[Lenke](https://tinyurl.com/sok2011v2023utf1){:target = "blank"} |
 |Arbeidskrav 2.1                     | 13.04.2023 kl 08.00| Skriftlig innevering   | Økonomisk vekst | 0         |1 (Individuell) |     |
-|Arbeidskrav 2.2                     | 17.04.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 0         |1 (Individuell) | [Lenke](https://tinyurl.com/sok2011v2023utfs){:target = "blank"}     |
+|Arbeidskrav 2.2                     | 17.04.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 0         |1 (Individuell) | [Lenke](https://tinyurl.com/sok2011v2023utf2){:target = "blank"}     |
 |Mappeoppgave 1                      | 01.05.2023 kl 23.59| Skriftlig innevering   | Økonomisk vekst | 30%       |1 (Individuell) | [Lenke](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)    |
 |Mappeoppgave 2                      | 01.05.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 30%       |1 (Individuell) | [Lenke](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)    |
 |Mappeoppgave 3                      | 26.05.2023 kl 23.59| Podkast (lyd og bilde) | Bærekraftig utvikling | 30% |2 | kommer    |
@@ -39,7 +39,7 @@ Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de
 #### Arbeidskrav 2.1 og 2.2
 **Arbeidskrav 2.1** består i det å laste opp et første utkast til mappeopggave 2 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de to siste seksjonene. Inkludere hele oppgaven (de tre første og de tre siste seksjonene) i filen. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
 
-**Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utfs){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student). 
+**Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf2){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student). 
 
 ### Mappeopggave 3
 Mappeoppgave 3 består i det å lage en podkast. Temaet for podkasten skal være bærekraftig utvikling. 
