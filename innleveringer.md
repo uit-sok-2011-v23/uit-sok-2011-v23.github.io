@@ -29,7 +29,7 @@ De to første mappeoppgavene på kurset sok-2011 vil sammen lage en hovedoppgave
 Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, teori, og metode og data) i hovedoppgaven. Mappeoppgave 1 skal skrives individuelt. Oppgaven teller 33% til sluttkarakter på kurset (maks 12 poeng).
 
 #### Arbeidskrav 1.1 og 1.2
-**Arbeidskrav 1.1** består i det å laste opp et første utkast til mappeoppgave 1 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de tre første seksjonene. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
+**Arbeidskrav 1.1** består i det å laste opp et første utkast til mappeoppgave 1 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de tre første seksjonene. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet. 
 
 **Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf1){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student)
 
