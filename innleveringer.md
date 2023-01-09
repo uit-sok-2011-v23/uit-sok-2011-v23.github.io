@@ -57,7 +57,7 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
 
 Podkasten skal tas opp med både lyd og bilde. Dere kan bruke Teams til å ta opp podkasten. Det er lov å bruke andre programvarer (se [eksempler](https://www.sorryonmute.com/best-free-podcast-editing-software/)). Det viktige er at lyd-filen har høy kvalitet. Formålet med bild-filen er fremst å verifisere at det er dere som har laget podkasten. Det er likevel lov å bruke bild-filen til å presentere visuelt materiale. 
 
-For å øke rettsikkerheten skal alle grupper levere inn 1) et samarbeidsavtale og 2) en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. **[Samarbeidsavtalen]() skal leveres inn før 21. april 2023 i Canvas.** Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
+For å øke rettsikkerheten skal alle grupper levere inn 1) et samarbeidsavtale og 2) en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. **[Samarbeidsavtalen](assets/Samarbeidsavtale for gruppearbeid ved BFE_sok2011.pdf){:target="blank"} skal leveres inn før 21. april 2023 i Canvas.** Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
 
 
 **Bidragserklæring – eksempel**
