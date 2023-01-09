@@ -6,19 +6,22 @@
 - Arbeidskrav er obligatorisk, men inngår ikke i mappen.
 - Mappeinnleveringer er obligatoriske, og danner grunnlag for karakter A-F på kurset.
   - **For å få godkjent karakter på kurset må du få godkjent karakter (A-E) på alle deler i mappen.**  
-- Skriftlige mappeoppgaver leveres i [Wiseflow](https://europe.wiseflow.net/participant/){:target="blank"}. 
 - Arbeidskrav leveres i Canvas.
+- Enkelte mappeoppgaver leveres i Canvas.
+- Hele mappen leveres i [Wiseflow](https://europe.wiseflow.net/participant/){:target="blank"}. 
+
 
 
 | Type oppgave                       | Innleveringsfrist  | Format                 | Tema            | Andel av karakter |Gruppestørrelse | Ressurser |
 |------------------------------------|--------------------|------------------------|-----------------|-----------|-----------------|-----------|
-|Arbeidskrav 1.1                     | 27.02.2023 kl 08.00| Skriftlig innevering   | Økonomisk vekst | 0         |1 (Individuell) |    |
-|Arbeidskrav 1.2                     | 03.03.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 0         |1 (Individuell) |[Lenke](https://tinyurl.com/sok2011v2023utf1){:target = "blank"} |
-|Arbeidskrav 2.1                     | 13.04.2023 kl 08.00| Skriftlig innevering   | Økonomisk vekst | 0         |1 (Individuell) |     |
-|Arbeidskrav 2.2                     | 17.04.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 0         |1 (Individuell) | [Lenke](https://tinyurl.com/sok2011v2023utf2){:target = "blank"}     |
-|Mappeoppgave 1                      | 01.05.2023 kl 23.59| Skriftlig innevering   | Økonomisk vekst | 1/3      |1 (Individuell) | [Lenke](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)    |
-|Mappeoppgave 2                      | 01.05.2023 kl 23.59| Skriftlig innlevering  | Økonomisk vekst | 1/3      |1 (Individuell) | [Lenke](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)    |
-|Mappeoppgave 3                      | 26.05.2023 kl 23.59| Podkast (lyd og bilde) | Bærekraftig utvikling | 1/3 |2 | kommer    |
+|Arbeidskrav 1.1                     | 27.02.2023 kl 08.00| Skriftlig innevering (canvas)   | Økonomisk vekst | 0         |1 (Individuell) |    |
+|Arbeidskrav 1.2                     | 03.03.2023 kl 23.59| Skriftlig innlevering (canvas) | Økonomisk vekst | 0         |1 (Individuell) |[Lenke](https://tinyurl.com/sok2011v2023utf1){:target = "blank"} |
+|Arbeidskrav 2.1                     | 13.04.2023 kl 08.00| Skriftlig innevering  (canvas) | Økonomisk vekst | 0         |1 (Individuell) |     |
+|Arbeidskrav 2.2                     | 17.04.2023 kl 23.59| Skriftlig innlevering (canvas) | Økonomisk vekst | 0         |1 (Individuell) | [Lenke](https://tinyurl.com/sok2011v2023utf2){:target = "blank"}     |
+|Mappeoppgave 1                      | 01.05.2023 kl 23.59| Skriftlig innevering (canvas)  | Økonomisk vekst | 1/3      |1 (Individuell) | [Lenke](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)    |
+|Mappeoppgave 2                      | 01.05.2023 kl 23.59| Skriftlig innlevering (canvas) | Økonomisk vekst | 1/3      |1 (Individuell) | [Lenke](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html)    |
+|Mappeoppgave 3                      | 26.05.2023 kl 23.59| Podkast (lyd og bilde) (canvas)| Bærekraftig utvikling | 1/3 |2 | kommer    |
+|Mappe                      | 26.05.2023 kl 23.59| Mappe| Bærekraftig vekst| 100 | |    |
 
 ## Oppgaver
 
