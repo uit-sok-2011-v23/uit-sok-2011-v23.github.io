@@ -48,7 +48,7 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
 
 * Hva snakker vi om når vi snakker om bærekraftig utvikling? 
 * Hvorfor er bærekraftig utvikling viktig på lang sikt? 
-* Hvilke konflikter i insentiver finnes det for enkelte land på kort sikt?
+* Hvilke konflikter i insentiver finnes det for enkelte land og aktører på kort sikt?
 * Hva kan vi gjøre for å håndtere utfordringene knyttet til bærekraftig utvikling? 
   * Hvilken rolle kan private markeder og regjeringer ta? 
   * Er det viktige forskjeller mellom fattige og rike land i evne og ansvar i det å håndtere utfordringene vi står innfor?
@@ -57,7 +57,7 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
 
 Podkasten skal tas opp med både lyd og bilde. Dere kan bruke Teams til å ta opp podkasten. Det er lov å bruke andre programvarer (se [eksempler](https://www.sorryonmute.com/best-free-podcast-editing-software/)). Det viktige er at lyd-filen har høy kvalitet. Formålet med bild-filen er fremst å verifisere at det er dere som har laget podkasten. Det er likevel lov å bruke bild-filen til å presentere visuelt materiale. 
 
-For å øke rettsikkerheten skal alle grupper levere inn en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
+For å øke rettsikkerheten skal alle grupper levere inn 1) et samarbeidsavtale og 2) en erklæring som beskriver bidraget til de enkelte gruppe-medlemmene. **Samarbeidsavtalen skal leveres inn før 21. april 2023 i Canvas.** Bidragserklæringen skal signeres av begge medlemmene i gruppen og sendes inn sammen med lyd- og bild-filen.  
 
 
 **Bidragserklæring – eksempel**
@@ -69,7 +69,9 @@ A.B. hadde hovedansvar for innholdet i del 1 og 2. B.C. hadde hovedansvar for å
 # Evaluering
 ## Mappeoppgave 1
 Innehold: Introduksjon, teori, metode og data
+
 Gruppestørrelse: 1
+
 Maks poeng: 12 (33% av karakter)
 
 ### Eksempel på en oppgave med karakter A – B
@@ -106,7 +108,9 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 
 ## Mappeoppgave 2
 Innehold: Resultat og diskusjon
+
 Gruppestørrelse: 1
+
 Maks poeng: 12 (33% av karakter)
 
 ### Eksempel på en oppgave med karakter A – B
@@ -144,8 +148,11 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
  
 ## Mappeoppgave 3
 Innehold: Podkast på tema bærekraftig utvikling
+
 Gruppestørrelse: 2
+
 Maks poeng: 12 (33% av karakter)
+
 Podkasten evalueres individuelt. Det er mulig at ulike gruppemedlemmer får ulike poeng på oppgaven. 
 
 ### Eksempel på en podkast som gir karakter A - B
