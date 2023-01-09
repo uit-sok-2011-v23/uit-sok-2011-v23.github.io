@@ -26,22 +26,22 @@ De to første mappeoppgavene på kurset sok-2011 vil sammen lage en hovedoppgave
 [her](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_assignment.html){:target="blank"}.
 
 ### Mappeoppgave 1
-Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, teori, og metode og data) i hovedoppgaven. Mappeoppgaven 1 skal skrives individuelt. Oppgaven teller 33% til sluttkarakter på kurset (maks 12 poeng).
+Mappeoppgave 1 består i det å skrive de første tre seksjonene (introduksjon, teori, og metode og data) i hovedoppgaven. Mappeoppgave 1 skal skrives individuelt. Oppgaven teller 33% til sluttkarakter på kurset (maks 12 poeng).
 
 #### Arbeidskrav 1.1 og 1.2
-**Arbeidskrav 1.1** består i det å laste opp et første utkast til mappeopggave 1 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de tre første seksjonene. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
+**Arbeidskrav 1.1** består i det å laste opp et første utkast til mappeoppgave 1 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de tre første seksjonene. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
 
 **Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf1){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student)
 
 ### Mappeoppgave 2
-Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de siste to seksjonene (resultat og diskusjon) i hovedoppgaven. Mappeoppgaven 2 skal skrives individuelt. Oppgaven teller 33% til sluttkarakter på kurset (maks 12 poeng).
+Mappeoppgave 2 består i det å gjennomføre den empiriske analysen og skrive de siste to seksjonene (resultat og diskusjon) i hovedoppgaven. Mappeoppgave 2 skal skrives individuelt. Oppgaven teller 33% til sluttkarakter på kurset (maks 12 poeng).
 
 #### Arbeidskrav 2.1 og 2.2
-**Arbeidskrav 2.1** består i det å laste opp et første utkast til mappeopggave 2 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de to siste seksjonene. Inkludere hele oppgaven (de tre første og de tre siste seksjonene) i filen. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
+**Arbeidskrav 2.1** består i det å laste opp et første utkast til mappeoppgave 2 på Canvas. Da dette er et første utkast trenger ikke oppgaven å være "klar", men utkastet skal være fullstendig i den betydelsen at du har skrevet tekst til alle de to siste seksjonene. Inkludere hele oppgaven (de tre første og de to siste seksjonene) i filen. Du leverer inn på Canvas. Du trenger ikke å levere inn kode (R-script) i arbeidskravet.
 
-**Arbeidskrav 1.2** består i det å gi konstruktiv "feed-forward" til en annen student. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf2){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student). 
+**Arbeidskrav 2.2** består i det å gi konstruktiv "feed-forward" til en annen student på de to siste seksjonene i oppgaven. Vi vil jobbe med arbeidskravet på et seminar. Du gjennomfører arbeidskravet ved å 1) svare på spørsmålene i [denne spørreundersøkelsen](https://tinyurl.com/sok2011v2023utf2){:target = "blank"}, og 2) laste opp Pdf-filen som blir laget på canvas (som svar til din tildelte student). 
 
-### Mappeopggave 3
+### Mappeoppgave 3
 Mappeoppgave 3 består i det å lage en podkast. Temaet for podkasten skal være bærekraftig utvikling. Oppgaven teller 33% til sluttkarakter. 
 
 Podkasten skal ta opp og prøve å besvare følgende spørsmål:
@@ -53,7 +53,7 @@ Podkasten skal ta opp og prøve å besvare følgende spørsmål:
   * Hvilken rolle kan private markeder og regjeringer ta? 
   * Er det viktige forskjeller mellom fattige og rike land i evne og ansvar i det å håndtere utfordringene vi står innfor?
 
-**Podkasten skal være maks 30 minutter. Podkasten skal gjennomføres i grupper om to.** 
+**Podkasten skal være maks 30 minutter. Podkasten skal gjennomføres i grupper på to.** 
 
 Podkasten skal tas opp med både lyd og bilde. Dere kan bruke Teams til å ta opp podkasten. Det er lov å bruke andre programvarer (se [eksempler](https://www.sorryonmute.com/best-free-podcast-editing-software/)). Det viktige er at lyd-filen har høy kvalitet. Formålet med bild-filen er fremst å verifisere at det er dere som har laget podkasten. Det er likevel lov å bruke bild-filen til å presentere visuelt materiale. 
 
@@ -96,7 +96,7 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 - Regresjonsmodellen er korrekt beskrevet i tekst og definert med en ligning
 
 ### Eksempel på årsaker til at en oppgave får karakter E – F
-- Teksten er svært rotete skrevet. Det er svært vanskelig å følge resonnement. 
+- Teksten er rotete skrevet. Det er anskelig å følge resonnement. 
 - Seksjoner i oppgaven mangler
 - Det er fundamentale feil i noen av seksjonene
 - Det er store mangler i den økonomiske intuisjonen
@@ -134,7 +134,7 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 -	God diskusjon av implikasjoner for policy (politiske inngrep) for å oppnå bærekraftig vekst. 
 
 ### Eksempel på årsaker til at en oppgave får karakter E – F
--	Teksten er svært rotete skrevet. Det er svært vanskelig å følge resonnementene. 
+-	Teksten er rotete skrevet. Det er vanskelig å følge resonnementene. 
 -	Seksjoner i oppgaven mangler
 -	Det er fundamentale feil i noen av seksjonene
 -	Tabeller mangler
@@ -149,10 +149,10 @@ Maks poeng: 12 (33% av karakter)
 Podkasten evalueres individuelt. Det er mulig at ulike gruppemedlemmer får ulike poeng på oppgaven. 
 
 ### Eksempel på en podkast som gir karakter A - B
-Podkasten vises at studenten
--	Har en god forståelse for hva bærekraftig utvikling er for noe
--	Har en god forståelse for sammenhengen mellom bærekraftig utvikling og materiell velferd på lang sikt
--	Har god forståelse problemer og utfordringer for private markeder i det å få til bærekraftig utvikling 
+Podkasten viser at studenten
+-	Har god forståelse for hva bærekraftig utvikling er for noe
+-	Har god forståelse for sammenhengen mellom bærekraftig utvikling og materiell velferd på lang sikt
+-	Har god forståelse for problemer og utfordringer for private markeder i det å få til bærekraftig utvikling 
 -	Har god kjennskap til muligheter og utfordringer for enkelte stater når det kommer til å få til bærekraftig utvikling
 -	Har god kjennskap til viktige forskjeller mellom rike og fattige land når det kommer til ansvar og evne til å håndtere utfordringer knyttet til klimaendringer. 
 OG
