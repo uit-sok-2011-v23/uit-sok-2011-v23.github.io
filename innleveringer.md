@@ -142,7 +142,7 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 -	God diskusjon av problemer med analysen og/eller datamaterialet. 
 -	God diskusjon av implikasjoner for policy (politiske inngrep) for å oppnå bærekraftig vekst. 
 
-### Eksempel på årsaker til at en oppgave får karakter E – F
+### Eksempel på årsaker til at en oppgave får karakter D - E
 -	Teksten er rotete skrevet. Det er vanskelig å følge resonnementene. 
 -	Seksjoner i oppgaven mangler
 -	Det er fundamentale feil i noen av seksjonene
@@ -170,7 +170,7 @@ Podkasten viser at studenten
 OG
 -	Bidragserklæringen viser at studenten har bidratt substansielt til innholdet og gjennomføringen av podkasten
 
-### Eksempel på årsaker til at podkasten får karakter E – F
+### Eksempel på årsaker til at podkasten får karakter D - E
 Podkasten viser ikke at studenten
 -	Forstår for hva bærekraftig vekst er for noe 
 -	Forstår sammenhengen mellom bærekraftig utvikling og materiell velferd på lang sikt
