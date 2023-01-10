@@ -19,7 +19,7 @@ NB: Skjemaet er preliminært. For oppdaterte tider og rom, se [timeplan](https:/
 | 16/02/2023  |Forelesning          | Befolkningsvekst og demografisk transisjon         | 2,9 -10    |
 | 20/02/2023  |Seminar              | Seminar: Befolkning og transisjon                            | 2,9-10   |
 | 21/02/2023  |Forelesning          |  Befolkningsvekst og demografisk transisjon           | 2,9-10 |
-| 24/02/2023  |Seminar              | Seminar: Befolkning og transisjon  Seminar: Hvordan måle bærekraftig utvikling?  | 2,9-10  |
+| 24/02/2023  |Seminar              | Seminar: Befolkning og transisjon  | 2,9-10  |
 | 27/02/2023  |Seminar              | Seminar: Feed-forward - kritiske vennepar                   |  |
 | 28/02/2023  |Forelesning          | Introduksjon til bærekraftig utvikling                       | 11       |
 | 06/03/2023  |Seminar              | Seminar: Kap 11           | 11  |
