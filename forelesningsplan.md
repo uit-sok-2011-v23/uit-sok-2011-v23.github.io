@@ -8,7 +8,7 @@ NB: Skjemaet er preliminært. For oppdaterte tider og rom, se [timeplan](https:/
 |Dato         | Forelesning/Seminar | Tema                                                 |Kapittel |
 |-------------|----------------------------------------------------------------------------|---------|
 | 11/01/2023  |Forelesning          | Introduksjon til kurset                              |    |
-| 17/01/2023  |Forelesning          | Introduksjon til økonomisk vekst. | 1 - 2   |
+| 17/01/2023  |Forelesning          | Introduksjon til økonomisk vekst. | 1   |
 | 23/01/2023  |Seminar              | Seminar: Hvordan måle vekst?                         | 1   |
 | 25/01/2023  |Forelesning          | Vekstteori 1 - Solow basmodell                       | 7       |
 | 30/01/2023  |Seminar              | Seminar: Solow basmodell                              |7  |
