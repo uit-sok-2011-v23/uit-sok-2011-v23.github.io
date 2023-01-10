@@ -142,7 +142,7 @@ Språket i oppgaven er på et riktig nivå for en akademisk oppgave. Resonnement
 -	God diskusjon av problemer med analysen og/eller datamaterialet. 
 -	God diskusjon av implikasjoner for policy (politiske inngrep) for å oppnå bærekraftig vekst. 
 
-### Eksempel på årsaker til at en oppgave får karakter D - E
+### Eksempel på årsaker til at en oppgave får karakter E - F
 -	Teksten er rotete skrevet. Det er vanskelig å følge resonnementene. 
 -	Seksjoner i oppgaven mangler
 -	Det er fundamentale feil i noen av seksjonene
