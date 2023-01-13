@@ -4,5 +4,5 @@
 <!-- Gjør endringer under her -->
 
 # Forelesninger
-Her finner du lenker til alle forelesnigner på kurset. Siden oppdateres fortløpende
+Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortløpende
 * <a href="assets/F1_intro_v23.pdf"> F1 - Introduksjon til kurset</a>
