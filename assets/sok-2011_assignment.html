@@ -2776,7 +2776,7 @@ white-space: normal;
 </div>
 <p>Vi vil bruke følgende variabler fra WDI:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.GDP.PCAP.KD (gdppc) = GDP per capita in constant 2011 USD, </span></span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.GDP.PCAP.PP.KD (gdppc) = GDP per capita (PPP) </span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#   BAR.SCHL.15UP (gsy)  = Gross national savings, </span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.NNAT.GN.ZS (nsy) = Net national savings,</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#   SP.POP.TOTL (poptot) = Total population</span></span>
@@ -2793,7 +2793,7 @@ white-space: normal;
 </div>
 <p>Det er mulig å laste ned alle variabler på en gang. Dette tar dessverre lang tid. I tillegg ønsker vi å lage noen nye variabler. For å få bedre oversikt over datamaterialet og minke tidsbruken har jeg valgt å laste ned noen av variablene separat.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. BNP per innbyggere (alle år) og initial nivå på BNP per innbyggere. WDI-variabel =  &quot;NY.GDP.PCAP.KD&quot;. </span></span>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. BNP per innbyggere (alle år) og initial nivå på BNP per innbyggere. WDI-variabel =  &quot;NY.GDP.PCAP.PP.KD&quot;. </span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Velg startår = 2000 og sluttår = 2019</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>df_gdp0<span class="ot">&lt;-</span><span class="fu">WDI</span>(</span>
