@@ -9,4 +9,4 @@ Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortlø
 
 # Seminar
 Her finner du lenker til notater og ressurser til seminarene
-* [Dataset til seminar 1](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/Assets/income.csv) 
+* [Dataset til seminar 1](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/income.csv) 
