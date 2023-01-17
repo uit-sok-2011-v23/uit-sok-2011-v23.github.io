@@ -10,5 +10,5 @@ Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortlø
 
 # Seminar
 Her finner du lenker til notater og ressurser til seminarene
-* [Oppgaver til seminar 1](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_1_oppgaver.html){:target="blank"})
+* [Oppgaver til seminar 1](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_1_oppgaver.html){:target="blank"}
 * [Dataset til seminar 1](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/income.csv) 
