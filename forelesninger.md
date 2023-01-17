@@ -6,6 +6,7 @@
 # Forelesninger
 Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortløpende
 * <a href="assets/F1_intro_v23.pdf"> F1 - Introduksjon til kurset</a>
+* * <a href="assets/F2_vekst_v23.pdf"> F2 - Introduksjon til økonomisk vekst</a>
 
 # Seminar
 Her finner du lenker til notater og ressurser til seminarene
