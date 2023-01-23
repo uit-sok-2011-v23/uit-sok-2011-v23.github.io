@@ -2908,7 +2908,7 @@ white-space: normal;
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df_growth0 <span class="ot">=</span> df_all0 <span class="sc">%&gt;%</span>  </span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(iso3c, year) <span class="sc">%&gt;%</span>  <span class="co"># Sorter på år og land</span></span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ddply</span>(<span class="st">&quot;iso3c&quot;</span>,transform,</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">gdpgrowth=</span><span class="fu">c</span>(<span class="cn">NA</span>,<span class="fu">exp</span>(<span class="fu">diff</span>(<span class="fu">log</span>(gdppc)))<span class="sc">-</span><span class="dv">1</span>)<span class="sc">*</span><span class="dv">100</span>) <span class="sc">%&gt;%</span>  <span class="co"># Årlig vekstrate i gdppc for hvert land</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">gdpgrowth=</span><span class="fu">c</span>(<span class="cn">NA</span>,<span class="fu">diff</span>(<span class="fu">log</span>(gdppc))<span class="sc">-</span><span class="dv">1</span>)<span class="sc">*</span><span class="dv">100</span>) <span class="sc">%&gt;%</span>  <span class="co"># Årlig vekstrate i gdppc for hvert land</span></span>
 <span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">gdpgrowth =</span> <span class="fu">as.numeric</span>(gdpgrowth, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span> <span class="co"># </span></span>
 <span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ddply</span>(<span class="st">&quot;iso3c&quot;</span>,transform,</span>
 <span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        <span class="at">avg_gdpgrowth=</span><span class="fu">mean</span>(gdpgrowth, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="co">#Gjennomsnittlig årlig vekstrate for hvert land i perioden</span></span>
@@ -2932,12 +2932,12 @@ white-space: normal;
 <pre><code># A tibble: 6 × 17
   country  region income iso3c iso2c  year  poptot  gdppc gdppc0 avg_g…¹   avg_n
   &lt;chr&gt;    &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
-1 Aruba    Latin… High … ABW   AW     2019 NA      40781. 37241.   0.568   1.05 
-2 Afghani… South… Low i… AFG   AF     2019 NA       2080.  1280.   3.05  NaN    
-3 Angola   Sub-S… Lower… AGO   AO     2019  3.24e7  6602.  4708.   1.93    3.56 
-4 Albania  Europ… Upper… ALB   AL     2019  2.85e6 13656.  5894.   4.54   -0.427
-5 United … Middl… High … ARE   AE     2019 NA      71782. 96836.  -1.32  NaN    
-6 Argenti… Latin… Upper… ARG   AR     2019  4.49e7 22072. 18525.   1.10    1.02 
+1 Aruba    Latin… High … ABW   AW     2019 NA      40781. 37241.   -99.5   1.05 
+2 Afghani… South… Low i… AFG   AF     2019 NA       2080.  1280.   -97.1 NaN    
+3 Angola   Sub-S… Lower… AGO   AO     2019  3.24e7  6602.  4708.   -98.2   3.56 
+4 Albania  Europ… Upper… ALB   AL     2019  2.85e6 13656.  5894.   -95.6  -0.427
+5 United … Middl… High … ARE   AE     2019 NA      71782. 96836.  -102.  NaN    
+6 Argenti… Latin… Upper… ARG   AR     2019  4.49e7 22072. 18525.   -99.1   1.02 
 # … with 6 more variables: avg_lfp &lt;dbl&gt;, avg_nsy &lt;dbl&gt;, avg_nry &lt;dbl&gt;,
 #   avg_gi &lt;dbl&gt;, avg_gx &lt;dbl&gt;, avg_educ &lt;dbl&gt;, and abbreviated variable name
 #   ¹​avg_gdpgrowth
@@ -3019,19 +3019,19 @@ white-space: normal;
 </tr>
 <tr>
 <td class="rowlabel">Mean (SD)</td>
-<td>1.53 (1.77)</td>
-<td>2.04 (1.82)</td>
-<td>2.72 (1.91)</td>
-<td>2.96 (1.90)</td>
-<td>2.31 (1.93)</td>
+<td>-98.6 (1.69)</td>
+<td>-98.1 (1.82)</td>
+<td>-97.4 (1.87)</td>
+<td>-97.3 (1.90)</td>
+<td>-97.8 (1.89)</td>
 </tr>
 <tr>
 <td class="rowlabel lastrow">Median [Min, Max]</td>
-<td class="lastrow">1.06 [-1.86, 6.30]</td>
-<td class="lastrow">2.02 [-0.701, 6.08]</td>
-<td class="lastrow">2.28 [-0.742, 8.84]</td>
-<td class="lastrow">2.65 [-0.483, 8.42]</td>
-<td class="lastrow">2.00 [-1.86, 8.84]</td>
+<td class="lastrow">-99.0 [-102, -94.6]</td>
+<td class="lastrow">-98.0 [-101, -94.2]</td>
+<td class="lastrow">-97.8 [-101, -91.6]</td>
+<td class="lastrow">-97.4 [-101, -91.9]</td>
+<td class="lastrow">-98.1 [-102, -91.6]</td>
 </tr>
 <tr>
 <td class="rowlabel firstrow">Gjennomsnittlig sparingsrate</td>
@@ -3172,20 +3172,20 @@ white-space: normal;
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">(Intercept)</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">3.73</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">3.28 – 4.19</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">-96.40</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">-96.84 – -95.96</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  "><strong>&lt;0.001</strong></td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Gjennomsnittlig<br>sparingsrate</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">0.06</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">0.04 – 0.08</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">0.03 – 0.08</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  "><strong>&lt;0.001</strong></td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Gjennomsnittlig<br>befolkningsvekst</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">-0.78</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">-0.99 – -0.57</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">-0.76</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">-0.96 – -0.55</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  "><strong>&lt;0.001</strong></td>
 </tr>
 <tr>
@@ -3200,7 +3200,7 @@ white-space: normal;
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">R<sup>2</sup> / R<sup>2</sup> adjusted</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">0.399 / 0.387</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">0.401 / 0.388</td>
 </tr>
 
 </tbody></table>
