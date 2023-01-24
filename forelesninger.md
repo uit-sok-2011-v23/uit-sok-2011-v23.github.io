@@ -18,3 +18,4 @@ Her finner du lenker til notater og ressurser til seminarene
 # Ressurser
 Her finner du ressurser som ikke er knyttet til en spesifikk forelesning
 * [Matematikk](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/Matematikk.pdf)
+* [Film: matematikk 1 - Matematiske spørsmål](https://youtu.be/BgDntxXBW_Q)
