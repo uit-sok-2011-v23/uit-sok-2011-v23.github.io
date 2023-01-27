@@ -21,6 +21,69 @@ width: 0.8em;
 margin: 0 0.8em 0.2em -1.6em;
 vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
 </style>
 
 
@@ -2608,6 +2671,131 @@ Y(t) = K(t)^\alpha \cdot L(t)^{1-\alpha}, \;\;\;\; 0&lt;\alpha&lt;1
 <section id="oppgave-2c" class="level2">
 <h2 class="anchored" data-anchor-id="oppgave-2c">Oppgave 2c</h2>
 <p>Bruk data fra Verdensbanken for årene 1980 - 2019. Inkludere informasjon om “inntekts-kategorisering” (du får fram dette ved å sette EXTRA = TrUE).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(dplyr))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(plyr))</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(ggplot2))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(WDI))</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(tidyverse))</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(countrycode))</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(scales))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(tidyr))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Lage datasetet</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df_gdp0<span class="ot">&lt;-</span><span class="fu">WDI</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">country =</span> <span class="st">&quot;all&quot;</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">indicator =</span> <span class="fu">c</span>(<span class="st">&#39;gdppc&#39;</span><span class="ot">=</span><span class="st">&quot;NY.GDP.PCAP.KD&quot;</span>, <span class="st">&#39;poptot&#39;</span><span class="ot">=</span><span class="st">&quot;SP.POP.TOTL&quot;</span>),  </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">start =</span> <span class="dv">1980</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">end =</span> <span class="dv">2019</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">extra =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">cache =</span> <span class="cn">NULL</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">latest =</span> <span class="cn">NULL</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">language =</span> <span class="st">&quot;en&quot;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Ta vekk &quot;land&quot; som ikke er land</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>df_gdp0 <span class="ot">&lt;-</span> df_gdp0  <span class="sc">%&gt;%</span>  <span class="fu">filter</span>(iso2c<span class="sc">!=</span><span class="st">&#39;1A&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;1W&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span> <span class="st">&#39;4E&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span> <span class="st">&#39;7E&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;8S&#39;</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;B8&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;EU&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;F1&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;OE&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;S1&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;S2&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&quot;S3&quot;</span> </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;S4&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;T2&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;T3&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;T4&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;T5&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;T6&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;T7&#39;</span> </span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;V1&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;V2&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;V3&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;V4&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XC&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XD&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XE&#39;</span> </span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XF&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XG&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XH&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XI&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XJ&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XL&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XM&#39;</span> </span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XN&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XO&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XP&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XQ&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XT&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;XU&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;Z4&#39;</span> </span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;Z7&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZF&#39;</span><span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZG&#39;</span>  <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZH&#39;</span> <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZI&#39;</span>  <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZJ&#39;</span>  <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZQ&#39;</span>  </span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>                                         <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;ZT&#39;</span>  <span class="sc">&amp;</span> iso2c <span class="sc">!=</span><span class="st">&#39;Z7&#39;</span>)  <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(iso3c, year) </span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Velg relevante variabler</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>df_gdp1 <span class="ot">&lt;-</span> <span class="fu">subset</span>(df_gdp0, <span class="at">select =</span> <span class="fu">c</span>(country, region, income, iso2c, iso3c, year, gdppc, poptot) ) <span class="sc">%&gt;%</span>  <span class="fu">arrange</span>(iso3c, year)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>df_gdp2 <span class="ot">&lt;-</span>  df_gdp1 <span class="sc">%&gt;%</span> <span class="fu">mutate_all</span>(na_if,<span class="st">&quot;&quot;</span>) <span class="co"># Identifisere missing values</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>df_gdp3 <span class="ot">&lt;-</span> df_gdp2[<span class="fu">complete.cases</span>( df_gdp1<span class="sc">$</span>gdppc, df_gdp1<span class="sc">$</span>iso3c),] <span class="co">#Ta vekk rader med missing values</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>df_gdp3 <span class="ot">=</span> df_gdp3  <span class="sc">%&gt;%</span>  </span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">year =</span> <span class="fu">as.numeric</span>(year)) <span class="co"># Se til at år er numerisk</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Ta vekk land med flere verdier for et og samme år</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>df_gdp4 <span class="ot">&lt;-</span> df_gdp3[<span class="sc">!</span><span class="fu">duplicated</span>(df_gdp2[<span class="fu">c</span>(<span class="st">&quot;iso3c&quot;</span>, <span class="st">&quot;year&quot;</span>, <span class="fu">max</span>(<span class="st">&quot;gdppc&quot;</span>))]), ]  <span class="sc">%&gt;%</span>  <span class="fu">arrange</span>(iso3c, year) </span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Lage en variabel som måler BNP per innbygger i år &quot;null&quot; (1980)</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>df_gdp5  <span class="ot">&lt;-</span> df_gdp4 <span class="sc">%&gt;%</span>  <span class="fu">arrange</span>(iso3c, year) <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(iso3c) <span class="sc">%&gt;%</span> <span class="co">#keep the first observation for gdp pc (Y0)</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>df_gdp1980 <span class="ot">=</span> <span class="fu">subset</span>(df_gdp5, <span class="at">select =</span> <span class="sc">-</span><span class="fu">c</span>(year, poptot) ) <span class="co">#Droppe unødvendige variabler</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>df_gdp1980 <span class="ot">&lt;-</span>   plyr<span class="sc">::</span> <span class="fu">rename</span>(df_gdp1980,<span class="fu">c</span>(<span class="st">&quot;gdppc&quot;</span> <span class="ot">=</span> <span class="st">&quot;gdppc0&quot;</span>)) <span class="co">#Gi variabeln et nytt navns lik at vi kan identifisere det i det store datasetet </span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(df_gdp1980)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  country              region                     income      iso2c iso3c gdppc0
+  &lt;chr&gt;                &lt;chr&gt;                      &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
+1 Aruba                Latin America &amp; Caribbean  High income AW    ABW   1.52e4
+2 Afghanistan          South Asia                 Low income  AF    AFG   3.60e2
+3 Angola               Sub-Saharan Africa         Lower midd… AO    AGO   2.66e3
+4 Albania              Europe &amp; Central Asia      Upper midd… AL    ALB   1.74e3
+5 Andorra              Europe &amp; Central Asia      High income AD    AND   3.44e4
+6 United Arab Emirates Middle East &amp; North Africa High income AE    ARE   1.14e5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_gdp <span class="ot">&lt;-</span> <span class="fu">left_join</span>(df_gdp4,df_gdp1980, <span class="at">by=</span><span class="fu">c</span>(<span class="st">&quot;country&quot;</span>, <span class="st">&quot;iso2c&quot;</span>, <span class="st">&quot;iso3c&quot;</span>, <span class="st">&quot;region&quot;</span>, <span class="st">&quot;income&quot;</span>))</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(df_gdp)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  country                    region      income iso2c iso3c year    gdppc
+1   Aruba Latin America &amp; Caribbean High income    AW   ABW 1986 15221.85
+2   Aruba Latin America &amp; Caribbean High income    AW   ABW 1987 17697.52
+3   Aruba Latin America &amp; Caribbean High income    AW   ABW 1988 21036.39
+4   Aruba Latin America &amp; Caribbean High income    AW   ABW 1989 23491.66
+5   Aruba Latin America &amp; Caribbean High income    AW   ABW 1990 24007.50
+6   Aruba Latin America &amp; Caribbean High income    AW   ABW 1991 25097.27
+  poptot   gdppc0
+1  64553 15221.85
+2  64450 15221.85
+3  64332 15221.85
+4  64596 15221.85
+5  65712 15221.85
+6  67864 15221.85</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_growth0 <span class="ot">=</span> df_gdp <span class="sc">%&gt;%</span>  </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(iso3c, year) <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ddply</span>(<span class="st">&quot;iso3c&quot;</span>,transform,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">gdpgrowth=</span><span class="fu">c</span>(<span class="cn">NA</span>,<span class="fu">exp</span>(<span class="fu">diff</span>(<span class="fu">log</span>(gdppc)))<span class="sc">-</span><span class="dv">1</span>)<span class="sc">*</span><span class="dv">100</span>) <span class="sc">%&gt;%</span>  <span class="co"># Beregne årlig vekstrate</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">gdpgrowth =</span> <span class="fu">as.numeric</span>(gdpgrowth, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ddply</span>(<span class="st">&quot;iso3c&quot;</span>,transform,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">avg_gdpgrowth=</span><span class="fu">mean</span>(gdpgrowth, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="co"># Beregne gjennomosnittlig vekstrate i perioden 1980-2019</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(df_growth0)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  country                    region      income iso2c iso3c year    gdppc
+1   Aruba Latin America &amp; Caribbean High income    AW   ABW 1986 15221.85
+2   Aruba Latin America &amp; Caribbean High income    AW   ABW 1987 17697.52
+3   Aruba Latin America &amp; Caribbean High income    AW   ABW 1988 21036.39
+4   Aruba Latin America &amp; Caribbean High income    AW   ABW 1989 23491.66
+5   Aruba Latin America &amp; Caribbean High income    AW   ABW 1990 24007.50
+6   Aruba Latin America &amp; Caribbean High income    AW   ABW 1991 25097.27
+  poptot   gdppc0 gdpgrowth avg_gdpgrowth
+1  64553 15221.85        NA      2.401681
+2  64450 15221.85 16.263941      2.401681
+3  64332 15221.85 18.866278      2.401681
+4  64596 15221.85 11.671573      2.401681
+5  65712 15221.85  2.195805      2.401681
+6  67864 15221.85  4.539317      2.401681</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df_growth1 <span class="ot">&lt;-</span> df_growth0[<span class="fu">complete.cases</span>( df_growth0<span class="sc">$</span>country, df_growth0<span class="sc">$</span>income, df_growth0<span class="sc">$</span>iso3c, df_growth0<span class="sc">$</span>avg_gdpgrowth),] <span class="co">#TA vekk land med missing observations</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df_growth <span class="ot">&lt;-</span> <span class="fu">subset</span>(df_growth1, <span class="at">select =</span> <span class="fu">c</span>(<span class="st">&quot;country&quot;</span>,  <span class="st">&quot;region&quot;</span>, <span class="st">&quot;income&quot;</span>, <span class="st">&quot;iso3c&quot;</span>, <span class="st">&quot;iso2c&quot;</span>,<span class="st">&quot;year&quot;</span>, <span class="st">&quot;poptot&quot;</span>, <span class="st">&quot;gdppc&quot;</span>, <span class="st">&quot;gdppc0&quot;</span>, <span class="st">&quot;avg_gdpgrowth&quot;</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Lage et dataset med en observasjon per land </span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>df_growth2019  <span class="ot">&lt;-</span> df_growth <span class="sc">%&gt;%</span>  <span class="fu">arrange</span>(iso3c, year) <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(iso3c) <span class="sc">%&gt;%</span> <span class="co">#Behold den siste observasjonen (2019) for hvert land</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(df_growth2019)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 10
+  country           region income iso3c iso2c  year poptot  gdppc gdppc0 avg_g…¹
+  &lt;chr&gt;             &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;
+1 Aruba             Latin… High … ABW   AW     2019 1.06e5 31763. 1.52e4   2.40 
+2 Afghanistan       South… Low i… AFG   AF     2019 3.78e7   584. 3.60e2   3.05 
+3 Angola            Sub-S… Lower… AGO   AO     2019 3.24e7  2570. 2.66e3   0.157
+4 Albania           Europ… Upper… ALB   AL     2019 2.85e6  4543. 1.74e3   2.79 
+5 Andorra           Europ… High … AND   AD     2019 7.63e4 39414. 3.44e4   0.389
+6 United Arab Emir… Middl… High … ARE   AE     2019 9.21e6 43785. 1.14e5  -2.18 
+# … with abbreviated variable name ¹​avg_gdpgrowth</code></pre>
+</div>
+</div>
 <ul>
 <li><p>Lag 1 graf for land i kategorien “High income” og “Upper middle income”, og en graf for alle land i verden. Grafen skal vise sammenhengen mellom BNP per innbygger i 1980 og gjennomsnittlig årlig vekstrate i BNP per innbygger i perioden 1980-2019. Ser prediksjonen fra Solow-modellen ut å være riktig?</p></li>
 <li><p>Lag nå en graf der du har med alle land i datasetet. Hva tenker du om prediksjonen fra Solowmodellen nå? Hva kan forklare det du ser?</p></li>
