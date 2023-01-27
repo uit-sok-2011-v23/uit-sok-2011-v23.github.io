@@ -19,7 +19,7 @@ Her finner du lenker til notater og ressurser til seminarene
 
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
-* [Film F4: Bevis for konstant K/Y i steady state - matematisk utledning (overkurs)](https://youtu.be/X5E_lnNk1G4)
+  * [Film F4: Bevis for konstant K/Y i steady state - matematisk utledning (overkurs)](https://youtu.be/X5E_lnNk1G4)
 * [Film F5: Solowmodellen med naturressurser - matematisk utledning](https://youtu.be/MuUxb7R1MKE)
 
 # Ressurser
