@@ -17,7 +17,7 @@ NB: Skjemaet er preliminært. For oppdaterte tider og rom, se [timeplan](https:/
 | 10/02/2023  |Forelesning          | Vekstteori 3 - Solowmodellen med naturressurser | 7      |
 | 13/02/2023  |Seminar              | Seminar: Solowmodellen med naturressurser             | 7  |
 | 16/02/2023  |Forelesning          | Empirisk analyse av vekst: hva og hvorfor        | 8    |
-| 20/02/2023  |Seminar              | Utfordrings seminar                          |   |
+| 20/02/2023  |Seminar              | Utfordringsseminar 1 (jobbe med innlevering)                          |   |
 | 21/02/2023  |Forelesning          |  Befolkningsvekst og demografisk transisjon           | 2,9-10 |
 | 24/02/2023  |Seminar              | Seminar: Befolkning og transisjon  | 2,9-10  |
 | 27/02/2023  |Seminar              | Seminar: Feed-forward - kritiske vennepar                   |  |
@@ -26,7 +26,7 @@ NB: Skjemaet er preliminært. For oppdaterte tider og rom, se [timeplan](https:/
 | 09/03/2023  |Forelesning          | Naturressurser og klimaendringer         | 12       |
 | 13/03/2023  |Seminar              | Seminar: Kap 12                    | 12  |
 | 15/03/2023  |Forelesning          | Global tilgang til mat| 13   |
-| 16/03/2023  |Seminar              | Utfordringsseminar 2           |   |
+| 16/03/2023  |Seminar              | Utfordringsseminar 2 (jobbe med innlevering)          |   |
 | 13/04/2023  |Seminar              | Seminar: Feed-forward - Kritiske vennepar          |  |
 | 14/04/2023  |Forelesning          | Rollen til markeder og staten for bærekraftig utvikling                | 14      |
 | 17/04/2023  |Seminar              | Seminar: kapittel 14           | 14  |
