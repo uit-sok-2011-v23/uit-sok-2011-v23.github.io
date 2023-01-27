@@ -17,16 +17,15 @@ Her finner du lenker til notater og ressurser til seminarene
 * [Dataset til seminar 1](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/income.csv) 
 * [Løsning til seminar 1](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_1_forstudenter.html){:target="blank"}
 
-# Ressurser
-Her finner du andre ressurser
-* [Noen matematikk-regler](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/Matematikk.pdf)
-* [Film: matematikk 1 - Matematiske spørsmål](https://youtu.be/BgDntxXBW_Q)
+# Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
 * [Film F4: Bevis for konstant K/Y i steady state - matematisk utledning (overkurs)](https://youtu.be/X5E_lnNk1G4)
 * [Film F5: Solowmodellen med naturressurser - matematisk utledning](https://youtu.be/MuUxb7R1MKE)
 
-
-## Andre ressurser
+# Ressurser
+Her finner du andre ressurser som ikke er knyttet direkte til forelesninger eller til pensumboka.
+* [Noen matematikk-regler](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/Matematikk.pdf)
+* [Film: matematikk 1 - Matematiske spørsmål](https://youtu.be/BgDntxXBW_Q)
 * Andre versjoner av Solow-modellen (annerledes fra pensumboka!)
   * [Antakelser "standard-Solow BAS"](https://youtu.be/JVIaH1djNrM)
   * [Solow BAS modell](https://youtu.be/aNFKSpEIBrI)
