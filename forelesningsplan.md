@@ -12,12 +12,12 @@ NB: Skjemaet er preliminært. For oppdaterte tider og rom, se [timeplan](https:/
 | 23/01/2023  |Seminar              | Seminar: Hvordan måle vekst?                         | 1   |
 | 25/01/2023  |Forelesning          | Vekstteori 1 - Solow basmodell                       | 7       |
 | 30/01/2023  |Seminar              | Seminar: Solow basmodell                              |7  |
-| 01/02/2023  |Forelesning          | Vekstteori 2 - Solowmodellen med teknologi og naturressurser | 7 |
-| 09/02/2023  |Seminar              | Seminar: Solowmodellen med teknologi og naturressurser   | 7   |
-| 10/02/2023  |Forelesning          | Empirisk analyse av økonomisk vekst - hva og hvorfor?| 8      |
-| 13/02/2023  |Seminar              | Seminar: Utfordringsseminar 1                             |  |
-| 16/02/2023  |Forelesning          | Befolkningsvekst og demografisk transisjon         | 2,9 -10    |
-| 20/02/2023  |Seminar              | Seminar: Befolkning og transisjon                            | 2,9-10   |
+| 01/02/2023  |Forelesning          | Vekstteori 2 - Solowmodellen med teknologi | 7 |
+| 09/02/2023  |Seminar              | Seminar: Solowmodellen med teknologi   | 7   |
+| 10/02/2023  |Forelesning          | Vekstteori 3 - Solowmodellen med naturressurser | 7      |
+| 13/02/2023  |Seminar              | Seminar: Solowmodellen med naturressurser             | 7  |
+| 16/02/2023  |Forelesning          | Empirisk analyse av vekst: hva og hvorfor        | 8    |
+| 20/02/2023  |Seminar              | Utfordrings seminar                          |   |
 | 21/02/2023  |Forelesning          |  Befolkningsvekst og demografisk transisjon           | 2,9-10 |
 | 24/02/2023  |Seminar              | Seminar: Befolkning og transisjon  | 2,9-10  |
 | 27/02/2023  |Seminar              | Seminar: Feed-forward - kritiske vennepar                   |  |
