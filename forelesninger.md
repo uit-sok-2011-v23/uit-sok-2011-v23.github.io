@@ -9,7 +9,7 @@ Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortlø
 * <a href="assets/F2_vekst_v23.pdf"> F2 - Introduksjon til økonomisk vekst</a>
 * <a href="assets/F3_Solow1_v23.pdf"> F3 - Solow-modellen - Basmodell</a>
   * <a href="assets/F3_solow_bas_v23_notes.pdf"> F3 - Solow-modellen - Basmodell (med digitale notater)</a>
-* <a href="assets/F3_Solow_tek_v23.pdf"> F3 - Solow-modellen med teknologi </a>
+* <a href="assets/F3_solow_tek_v23.pdf"> F4 - Solow-modellen med teknologi </a>
 
 
 # Seminar
