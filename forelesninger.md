@@ -21,7 +21,7 @@ Her finner du lenker til notater og ressurser til seminarene
   * [Løsning til seminar 2](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_2_kode_fs.html){:target="blank"}
  * <a href="assets/Seminar 3 – Solow modellen med teknologisk utvikling.pdf"> Seminar 3 - oppgaver </a>
    * <a href="assets/løsning_seminar3.pdf"> Seminar 3 - Matematisk utledning oppgave 1 </a>
-   * <a href="assets/sok_2011_seminar3.xlsx"> Seminar 3 - Exceldokument oppgave 2 </a>
+   * <a href="assets/sok_2011_seminar3.xlsx"> Seminar 3 - Excel-dokument oppgave 2 </a>
 
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
