@@ -23,7 +23,7 @@ Her finner du lenker til notater og ressurser til seminarene
  * <a href="assets/Seminar 3 – Solow modellen med teknologisk utvikling.pdf"> Seminar 3 - oppgaver </a>
    * <a href="assets/løsning_seminar3.pdf"> Seminar 3 - Matematisk utledning oppgave 1 </a>
    * <a href="assets/sok_2011_seminar3.xlsx"> Seminar 3 - Excel-dokument oppgave 2 </a>
-
+* <a href="assets/Seminar 4 – Innleveringsoppgave 1 og matematikk.pdf"> Seminar 4 - Innleveringsoppgave 1 og matematikk </a>
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
   * [Film F4: Bevis for konstant K/Y i steady state - matematisk utledning (overkurs)](https://youtu.be/X5E_lnNk1G4)
