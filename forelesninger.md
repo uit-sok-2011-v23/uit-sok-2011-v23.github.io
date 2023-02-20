@@ -12,6 +12,7 @@ Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortlø
 * <a href="assets/F3_solow_tek_v23.pdf"> F4 - Solow-modellen med teknologi </a>
 * <a href="assets/F5_solow_naturressurser.pdf"> F5 - Solow-modellen med naturressurser </a>
 * <a href="assets/F6_Empiri_2023.02.13.pdf"> F6 - Empirisk analyse - Hva, hvordan og hvorfor? </a>
+* <a href="assets/F7_befolkning.pdf"> F7 - Befolkningsdynamikk </a>
 
 
 # Seminar
