@@ -36,6 +36,7 @@ Her finner du lenker til notater og ressurser til seminarene
 
 # Andre ressurser
 Her finner du andre ressurser som ikke er knyttet direkte til forelesninger eller til pensumboka.
+* [En interessant artikkel om viktigheten av institusjoner for økonomisk vekst på lang sikt](https://doi.org/10.1016/S1574-0684(05)01006-3)
 * [Noen matematikk-regler](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/Matematikk.pdf)
 * [Film: matematikk 1 - Matematiske spørsmål](https://youtu.be/BgDntxXBW_Q)
 * Andre versjoner av Solow-modellen (annerledes fra pensumboka!)
