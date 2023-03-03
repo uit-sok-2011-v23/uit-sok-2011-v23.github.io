@@ -2632,7 +2632,7 @@ vertical-align: -.125em;
 
 <p>På dette seminaret skal vi sammenligne tre mål på bærekraftig utvikling: Den justerte nettosparingsraten (genuine savings, GSI), “Social Progress Index” (SPI) som bygger på FN sine bærekraftsmål, og Human Development Index - original og justert for klima og miljø, og for ulikhet.</p>
 <p>Du finner dokumentasjon om pakken spiR <a href="https://cran.rstudio.com/web/packages/spiR/spiR.pdf">her</a> Du finner informasjon om HDI og PHDI (HDI ajdusted for planetary pressures) <a href="https://hdr.undp.org/system/files/documents/phdi2020technicalnotespdf.pdf">her</a></p>
-<p><strong>Oppgavene består i det å først visualisere utviklingen i måleinstrumentene over tid for ulike land, og deretter diskutere fordeler og ulemper med de ulike måleinstrumentene. </strong></p>
+<p><strong>Oppgavene består i det å først visualisere utviklingen i måleinstrumentene over tid for ulike land, og deretter diskutere fordeler og ulemper med de ulike måleinstrumentene.</strong></p>
 <ul>
 <li><p>For å visualisere utviklingen i den justerte nettosparingsraten kan du bruke pakken “wdi”.</p></li>
 <li><p>For å visualisere utviklingen i SPI kan du bruke pakken “spiR”.</p></li>
@@ -2651,6 +2651,7 @@ vertical-align: -.125em;
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(spiR))</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(readxl))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div style="page-break-after: always;"></div>
 <section id="oppgave-1" class="level2">
 <h2 class="anchored" data-anchor-id="oppgave-1">Oppgave 1</h2>
 <p><strong>Diskuter:</strong></p>
@@ -2659,6 +2660,12 @@ vertical-align: -.125em;
 <li>Hva ønsker vi få ut av et “godt” måleinstrument?</li>
 <li>Hva kan/skal vi bruke resultatene (og måleinstrumentene) til?</li>
 </ul>
+<div style="page-break-after: always;"></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;button</span> <span class="er">onclick</span><span class="ot">=</span><span class="st">&quot;window.print(); return false;&quot;</span> <span class="kw">/&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>Print <span class="kw">&lt;/button&gt;</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="oppgave-2" class="level2">
 <h2 class="anchored" data-anchor-id="oppgave-2">Oppgave 2</h2>
@@ -2675,16 +2682,16 @@ vertical-align: -.125em;
 </ul>
 <p>Du må beregne GSI selv (se Hess kapittel 11, s. 439-444). Variablene som er relevante for analysen er beskrevne her nede.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.NNAT.GN.ZS            Adjusted savings: net national savings (% of GNI) </span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.ICTR.GN.ZS                   Adjusted savings: gross savings (% of GNI)</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DRES.GN.ZS     Adjusted savings: natural resources depletion (% of GNI)  Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. </span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DPEM.GN.ZS     Adjusted savings: particulate emission damage (% of GNI)</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DNGY.GN.ZS                Adjusted savings: energy depletion (% of GNI)</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DMIN.GN.ZS               Adjusted savings: mineral depletion (% of GNI)</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">#    NY.ADJ.DKAP.GN.ZS    Adjusted savings: consumption of fixed capital (% of GNI)</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DFOR.GN.ZS            Adjusted savings: net forest depletion (% of GNI)</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DCO2.GN.ZS           Adjusted savings: carbon dioxide damage (% of GNI)</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.AEDU.GN.ZS           Adjusted savings: education expenditure (% of GNI)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.NNAT.GN.ZS            Adjusted savings: net national savings (% of GNI) </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.ICTR.GN.ZS                   Adjusted savings: gross savings (% of GNI)</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DRES.GN.ZS     Adjusted savings: natural resources depletion (% of GNI)  Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. </span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DPEM.GN.ZS     Adjusted savings: particulate emission damage (% of GNI)</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DNGY.GN.ZS                Adjusted savings: energy depletion (% of GNI)</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DMIN.GN.ZS               Adjusted savings: mineral depletion (% of GNI)</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#    NY.ADJ.DKAP.GN.ZS    Adjusted savings: consumption of fixed capital (% of GNI)</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DFOR.GN.ZS            Adjusted savings: net forest depletion (% of GNI)</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.DCO2.GN.ZS           Adjusted savings: carbon dioxide damage (% of GNI)</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.AEDU.GN.ZS           Adjusted savings: education expenditure (% of GNI)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="oppgave-3" class="level2">
@@ -2693,11 +2700,11 @@ vertical-align: -.125em;
 <p><strong>Lagre grafen, slik at du kan ta den fram seinere</strong></p>
 <p>Du laster inn data fra spiR ved bruk av koden her nede:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df_spir<span class="ot">&lt;-</span> <span class="fu">spir_data</span>(<span class="at">country =</span> <span class="fu">c</span>(<span class="st">&quot;WWW&quot;</span>, <span class="st">&quot;USA&quot;</span>, <span class="st">&quot;NOR&quot;</span>, <span class="st">&quot;NGA&quot;</span>, <span class="st">&quot;CHN&quot;</span>, <span class="st">&quot;BRA&quot;</span>, <span class="st">&quot;RUS&quot;</span>), <span class="at">indicators=</span><span class="st">&quot;SPI&quot;</span>, )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_spir<span class="ot">&lt;-</span> <span class="fu">spir_data</span>(<span class="at">country =</span> <span class="fu">c</span>(<span class="st">&quot;WWW&quot;</span>, <span class="st">&quot;USA&quot;</span>, <span class="st">&quot;NOR&quot;</span>, <span class="st">&quot;NGA&quot;</span>, <span class="st">&quot;CHN&quot;</span>, <span class="st">&quot;BRA&quot;</span>, <span class="st">&quot;RUS&quot;</span>), <span class="at">indicators=</span><span class="st">&quot;SPI&quot;</span>, )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>SPI er allerede beregnet i datasettet. Du kan se de indikatorer som inngår i SPI ved å bruke koden her nede:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>myIndicator <span class="ot">&lt;-</span> <span class="fu">spir_indicator</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>myIndicator <span class="ot">&lt;-</span> <span class="fu">spir_indicator</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="oppgave-4" class="level2">
@@ -2705,59 +2712,59 @@ vertical-align: -.125em;
 <p><strong>Visualiser relasjonen mellom 1) HDI og HDI justert for klima og miljø, og 2) HDI og HDI justert for ulikhet, (+ evt relasjonen mellom de to justerte målene)</strong></p>
 <p>Data til PHDI og IHDI kommer fra UNDP. Her er en forklaring til de ulike variablene i datasettet.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># datasett phdi</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># hdi_rank: human development index - country rank</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># hdi: human development index</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># phdi: planetary pressures adjusted hdi</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_phdi: difference phid hdi in percent</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_hdi_rank: difference in country rank phid hdi</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># p_adj: adjustment factor for planetary pressures</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># co_ton: CO2 emissions (tonnes)</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># co_index: CO2 emissions index</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># mfot_perc: material footprint (tonnes)</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># mfoot_index: material footprint index</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co">#datasett ihdi</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co"># ihdi: inequality adjusted hdi</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_ihdi: difference ihid hdi in percent</span></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_idi_rank: difference in country rank ihid hdi</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="co"># i_adj: adjustment factor for inequality</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="co"># i_life_perc: Inequality in life expectancy (%)</span></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="co"># i_life_index: Inequality in life expectancy index</span></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="co"># i_educ_perc: Inequality in education (%)</span></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="co"># i_educ_index: Inequality in education index</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="co"># i_inc_perc: Inequality in income (%)</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="co"># i_inc_index: Inequality in income index</span></span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="co"># inc_40: Income share held by poorest 40% 2010-2021</span></span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Inc_10: Income share held by richest 10% 2010-2021</span></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="co"># inc_1: Income share held by riches 1% 2010-2021</span></span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="co"># gini: Gini coefficient 2010-2021</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># datasett phdi</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># hdi_rank: human development index - country rank</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># hdi: human development index</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># phdi: planetary pressures adjusted hdi</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_phdi: difference phid hdi in percent</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_hdi_rank: difference in country rank phid hdi</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># p_adj: adjustment factor for planetary pressures</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># co_ton: CO2 emissions (tonnes)</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># co_index: CO2 emissions index</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># mfot_perc: material footprint (tonnes)</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># mfoot_index: material footprint index</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">#datasett ihdi</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co"># ihdi: inequality adjusted hdi</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_ihdi: difference ihid hdi in percent</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co"># diff_idi_rank: difference in country rank ihid hdi</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co"># i_adj: adjustment factor for inequality</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co"># i_life_perc: Inequality in life expectancy (%)</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="co"># i_life_index: Inequality in life expectancy index</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="co"># i_educ_perc: Inequality in education (%)</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="co"># i_educ_index: Inequality in education index</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="co"># i_inc_perc: Inequality in income (%)</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="co"># i_inc_index: Inequality in income index</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="co"># inc_40: Income share held by poorest 40% 2010-2021</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Inc_10: Income share held by richest 10% 2010-2021</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a><span class="co"># inc_1: Income share held by riches 1% 2010-2021</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="co"># gini: Gini coefficient 2010-2021</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Her nede har jeg gjort noen modifiseringer av data som gjør analysen litt enklere</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>phdi <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;C:/Users/ama123/OneDrive - UiT Office 365/Data/Undervisning/sok2011/data/HDI_undp/phdi.xlsx&quot;</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>ihdi <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;C:/Users/ama123/OneDrive - UiT Office 365/Data/Undervisning/sok2011/data/HDI_undp/ihdi.xlsx&quot;</span>)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>phdi <span class="ot">&lt;-</span>  phdi <span class="sc">%&gt;%</span> <span class="fu">mutate_all</span>(na_if,<span class="st">&quot;..&quot;</span>)</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>phdi<span class="sc">$</span>iso3c<span class="ot">&lt;-</span><span class="fu">countryname</span>(phdi<span class="sc">$</span>country, <span class="at">destination =</span> <span class="st">&#39;iso3c&#39;</span>) <span class="co"># Legg til kode til alle land (kan brukes til grafisk framstilling)</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>phdi <span class="ot">=</span> phdi <span class="sc">%&gt;%</span>  </span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hdi =</span> <span class="fu">as.numeric</span>(hdi)) <span class="sc">%&gt;%</span> </span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">phdi =</span> <span class="fu">as.numeric</span>(phdi))<span class="sc">%&gt;%</span> </span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">diff_phdi =</span> <span class="fu">as.numeric</span>(diff_phdi))</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>ihdi <span class="ot">&lt;-</span>  ihdi <span class="sc">%&gt;%</span> <span class="fu">mutate_all</span>(na_if,<span class="st">&quot;..&quot;</span>)</span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>ihdi<span class="sc">$</span>iso3c<span class="ot">&lt;-</span><span class="fu">countryname</span>(ihdi<span class="sc">$</span>country, <span class="at">destination =</span> <span class="st">&#39;iso3c&#39;</span>)</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>ihdi <span class="ot">=</span> ihdi <span class="sc">%&gt;%</span>  </span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hdi =</span> <span class="fu">as.numeric</span>(hdi)) <span class="sc">%&gt;%</span> </span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">ihdi =</span> <span class="fu">as.numeric</span>(ihdi))<span class="sc">%&gt;%</span> </span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">diff_ihdi =</span> <span class="fu">as.numeric</span>(diff_ihdi))</span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>df_pihdi <span class="ot">&lt;-</span> <span class="fu">left_join</span>(phdi, ihdi, <span class="at">by=</span><span class="fu">c</span>(<span class="st">&#39;iso3c&#39;</span>,<span class="st">&#39;country&#39;</span>, <span class="st">&#39;hdi&#39;</span>, <span class="st">&#39;hdi_rank&#39;</span>, <span class="st">&#39;dev_level&#39;</span>)) <span class="co">#Sett sammen de to datasettene, slik at vi kan sammenligne dem</span></span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>df_pihdi<span class="sc">$</span>pihdi<span class="ot">&lt;-</span>df_pihdi<span class="sc">$</span>hdi <span class="sc">-</span> ((df_pihdi<span class="sc">$</span>diff_phdi)<span class="sc">/</span><span class="dv">100</span>)<span class="sc">*</span>(df_pihdi<span class="sc">$</span>hdi) <span class="sc">-</span> ((df_pihdi<span class="sc">$</span>diff_ihdi)<span class="sc">/</span><span class="dv">100</span>)<span class="sc">*</span>(df_pihdi<span class="sc">$</span>hdi) <span class="co"># lage et instrument som korrigerer både for ulikhet og miljø.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>phdi <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;C:/Users/ama123/OneDrive - UiT Office 365/Data/Undervisning/sok2011/data/HDI_undp/phdi.xlsx&quot;</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>ihdi <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&quot;C:/Users/ama123/OneDrive - UiT Office 365/Data/Undervisning/sok2011/data/HDI_undp/ihdi.xlsx&quot;</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>phdi <span class="ot">&lt;-</span>  phdi <span class="sc">%&gt;%</span> <span class="fu">mutate_all</span>(na_if,<span class="st">&quot;..&quot;</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>phdi<span class="sc">$</span>iso3c<span class="ot">&lt;-</span><span class="fu">countryname</span>(phdi<span class="sc">$</span>country, <span class="at">destination =</span> <span class="st">&#39;iso3c&#39;</span>) <span class="co"># Legg til kode til alle land (kan brukes til grafisk framstilling)</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>phdi <span class="ot">=</span> phdi <span class="sc">%&gt;%</span>  </span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hdi =</span> <span class="fu">as.numeric</span>(hdi)) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">phdi =</span> <span class="fu">as.numeric</span>(phdi))<span class="sc">%&gt;%</span> </span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">diff_phdi =</span> <span class="fu">as.numeric</span>(diff_phdi))</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>ihdi <span class="ot">&lt;-</span>  ihdi <span class="sc">%&gt;%</span> <span class="fu">mutate_all</span>(na_if,<span class="st">&quot;..&quot;</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>ihdi<span class="sc">$</span>iso3c<span class="ot">&lt;-</span><span class="fu">countryname</span>(ihdi<span class="sc">$</span>country, <span class="at">destination =</span> <span class="st">&#39;iso3c&#39;</span>)</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>ihdi <span class="ot">=</span> ihdi <span class="sc">%&gt;%</span>  </span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hdi =</span> <span class="fu">as.numeric</span>(hdi)) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">ihdi =</span> <span class="fu">as.numeric</span>(ihdi))<span class="sc">%&gt;%</span> </span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">diff_ihdi =</span> <span class="fu">as.numeric</span>(diff_ihdi))</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>df_pihdi <span class="ot">&lt;-</span> <span class="fu">left_join</span>(phdi, ihdi, <span class="at">by=</span><span class="fu">c</span>(<span class="st">&#39;iso3c&#39;</span>,<span class="st">&#39;country&#39;</span>, <span class="st">&#39;hdi&#39;</span>, <span class="st">&#39;hdi_rank&#39;</span>, <span class="st">&#39;dev_level&#39;</span>)) <span class="co">#Sett sammen de to datasettene, slik at vi kan sammenligne dem</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>df_pihdi<span class="sc">$</span>pihdi<span class="ot">&lt;-</span>df_pihdi<span class="sc">$</span>hdi <span class="sc">-</span> ((df_pihdi<span class="sc">$</span>diff_phdi)<span class="sc">/</span><span class="dv">100</span>)<span class="sc">*</span>(df_pihdi<span class="sc">$</span>hdi) <span class="sc">-</span> ((df_pihdi<span class="sc">$</span>diff_ihdi)<span class="sc">/</span><span class="dv">100</span>)<span class="sc">*</span>(df_pihdi<span class="sc">$</span>hdi) <span class="co"># lage et instrument som korrigerer både for ulikhet og miljø.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="oppgave-5" class="level2">
