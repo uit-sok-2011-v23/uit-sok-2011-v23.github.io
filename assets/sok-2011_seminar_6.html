@@ -2653,6 +2653,15 @@ vertical-align: -.125em;
 </div>
 <section id="oppgave-1" class="level2">
 <h2 class="anchored" data-anchor-id="oppgave-1">Oppgave 1</h2>
+<p><strong>Diskuter:</strong></p>
+<ul>
+<li>Hvorfor skal vi måle “bærekraftig utvikling”?</li>
+<li>Hva ønsker vi få ut av et “godt” måleinstrument?</li>
+<li>Hva kan/skal vi bruke resultatene (og måleinstrumentene) til?</li>
+</ul>
+</section>
+<section id="oppgave-2" class="level2">
+<h2 class="anchored" data-anchor-id="oppgave-2">Oppgave 2</h2>
 <p><strong>Beregne GSI og visualisere utviklingen over tid for et utvalg av land i en graf</strong>. <strong>Lagre grafen, slik at du kan ta den fram seinere</strong></p>
 <p>Du kan selv velge hvilke land du vil se på. Et forslag er å se på følgende land (landkode i parentes):</p>
 <ul>
@@ -2678,8 +2687,8 @@ vertical-align: -.125em;
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#   NY.ADJ.AEDU.GN.ZS           Adjusted savings: education expenditure (% of GNI)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="oppgave-2" class="level2">
-<h2 class="anchored" data-anchor-id="oppgave-2">Oppgave 2</h2>
+<section id="oppgave-3" class="level2">
+<h2 class="anchored" data-anchor-id="oppgave-3">Oppgave 3</h2>
 <p><strong>Visualiser utviklingen i SPI over tid for samme utvalg av land som du brukte til oppgave 1 (i spiR er koden for verden “WWW”). Bruk de årene som er tilgjengelige.</strong></p>
 <p><strong>Lagre grafen, slik at du kan ta den fram seinere</strong></p>
 <p>Du laster inn data fra spiR ved bruk av koden her nede:</p>
@@ -2691,8 +2700,8 @@ vertical-align: -.125em;
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>myIndicator <span class="ot">&lt;-</span> <span class="fu">spir_indicator</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="oppgave-3" class="level2">
-<h2 class="anchored" data-anchor-id="oppgave-3">Oppgave 3</h2>
+<section id="oppgave-4" class="level2">
+<h2 class="anchored" data-anchor-id="oppgave-4">Oppgave 4</h2>
 <p><strong>Visualiser relasjonen mellom 1) HDI og HDI justert for klima og miljø, og 2) HDI og HDI justert for ulikhet, (+ evt relasjonen mellom de to justerte målene)</strong></p>
 <p>Data til PHDI og IHDI kommer fra UNDP. Her er en forklaring til de ulike variablene i datasettet.</p>
 <div class="cell">
@@ -2751,9 +2760,13 @@ vertical-align: -.125em;
 <span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>df_pihdi<span class="sc">$</span>pihdi<span class="ot">&lt;-</span>df_pihdi<span class="sc">$</span>hdi <span class="sc">-</span> ((df_pihdi<span class="sc">$</span>diff_phdi)<span class="sc">/</span><span class="dv">100</span>)<span class="sc">*</span>(df_pihdi<span class="sc">$</span>hdi) <span class="sc">-</span> ((df_pihdi<span class="sc">$</span>diff_ihdi)<span class="sc">/</span><span class="dv">100</span>)<span class="sc">*</span>(df_pihdi<span class="sc">$</span>hdi) <span class="co"># lage et instrument som korrigerer både for ulikhet og miljø.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="oppgave-4" class="level2">
-<h2 class="anchored" data-anchor-id="oppgave-4">Oppgave 4</h2>
-<p>Sammenlign resultatene fra din grafiske analyse. Hvordan skal vi tolke grafene? Diskuter fordeler og ulemper med å evaluere bærkraftig utvikling ved bruk av de ulike måleinstrumentene.</p>
+<section id="oppgave-5" class="level2">
+<h2 class="anchored" data-anchor-id="oppgave-5">Oppgave 5</h2>
+<p>Sammenlign resultatene fra din grafiske analyse.</p>
+<ul>
+<li>Hvordan skal vi tolke de enkelte grafene?</li>
+<li>Hvilket av måleinstrumentene syns du er “best” og hvorfor? Diskuter fordeler og ulemper med å evaluere bærkraftig utvikling ved bruk av de ulike måleinstrumentene.</li>
+</ul>
 </section>
 
 </main>
