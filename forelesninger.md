@@ -30,7 +30,7 @@ Her finner du lenker til notater og ressurser til seminarene
 * <a href="assets/Seminar 5 – Utfordringsseminar.pdf"> Seminar 5 - Utfordringsseminar </a>
   *  <a href="assets/Kode_innlevering1.R"> Kode til innleveringsoppgaven </a>
 * [Oppgaver til seminar 6](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_6.html){:target="blank"} 
-  * [Data til SSI](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/ssi_2006-2016-countries.xlsx) 
+  * [Data til SSI](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/ssi_2006-2016.xlsx) 
 
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
