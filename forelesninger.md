@@ -32,6 +32,7 @@ Her finner du lenker til notater og ressurser til seminarene
   *  <a href="assets/Kode_innlevering1.R"> Kode til innleveringsoppgaven </a>
 * [Oppgaver til seminar 6](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_6.html){:target="blank"} 
   * [Data til SSI](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/ssi_2010_2016.xlsx) 
+  * [Løsning til Seminar 6 (og 7)](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_6_code_2.html)
 
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
