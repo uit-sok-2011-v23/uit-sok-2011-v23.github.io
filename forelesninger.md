@@ -15,6 +15,7 @@ Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortlø
 * <a href="assets/F7_befolkning.pdf"> F7 - Befolkningsdynamikk </a>
 * <a href="assets/F8_SustDev1.pdf"> F8 - Introduksjon til bærekraftig utvikling </a>
 * <a href="assets/F9_SustDev2.pdf"> F9 - Naturressurser og klimaendringer </a>
+* <a href="assets/F9_SustDev2_globalfood.pdf"> F10 - Global tilgang til mat </a>
 
 
 # Seminar
