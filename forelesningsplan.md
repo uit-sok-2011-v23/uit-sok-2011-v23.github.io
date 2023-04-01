@@ -27,11 +27,11 @@ NB: Skjemaet er preliminært. For oppdaterte tider og rom, se [timeplan](https:/
 | 13/03/2023  |Seminar              | Seminar: Kap 12                    | 12  |
 | 15/03/2023  |Forelesning          | Global tilgang til mat| 13   |
 | 16/03/2023  |Seminar              | Utfordringsseminar 2 (jobbe med innlevering)          |   |
-| 13/04/2023  |Seminar              | Seminar: Feed-forward - Kritiske vennepar          |  |
-| 14/04/2023  |Forelesning          | Rollen til markeder og staten for bærekraftig utvikling                | 14      |
-| 17/04/2023  |Seminar              | Seminar: kapittel 14           | 14  |
-| 19/04/2023  |Forelesning          | Politikk for bærekraftig utvikling                   | 15      |
-| 21/04/2023  |Seminar              | Oppsummering og framtidsutsikter                      |  16 |
+| 11/04/2023  |Forelesning          | Politikk for bærekraftig vekst       | 14-15 |
+| 12/04/2023  |Seminar         | Seminar: politikk for bærekraftig vekst (CAP & Trade)               |  14-15    |
+| 17/04/2023  |Seminar              | Feedforward-seminar        |   |
+| 19/04/2023  |Forelesning          | Politikk for bærekraftig vekst               | 14-15     |
+| 21/04/2023  |Forelesning          | Oppsummering og framtidsutsikter                      |  16 |
 | 24/04/2023  |Seminar              | Introduksjon til podcast - opplegg og innspilling                         |   |
 | 04/05/2023  |Seminar              | Seminar: Jobb med podkast                  |  |
 | 08/05/2023  |Seminar              | Seminar: Jobb med podkast                         |   |
