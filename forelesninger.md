@@ -43,6 +43,7 @@ Her finner du lenker til notater og ressurser til seminarene
 
 # Andre ressurser
 Her finner du andre ressurser som ikke er knyttet direkte til forelesninger eller til pensumboka.
+* [IPCC 2022: Suppary for Policymakers](https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf)
 * [En interessant (og lang) artikkel om viktigheten av institusjoner for økonomisk vekst på lang sikt](https://doi.org/10.1016/S1574-0684(05)01006-3)
 * [En artikkel om utslipp av CO2 i 2022 fra NOAA](https://essd.copernicus.org/articles/14/4811/2022/)
 * [En podcast om uendelig vekst er mulig](https://freakonomics.com/podcast/two-totally-opposite-ways-to-save-the-planet/)
