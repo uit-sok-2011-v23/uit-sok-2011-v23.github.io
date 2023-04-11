@@ -36,7 +36,7 @@ Her finner du lenker til notater og ressurser til seminarene
   * [Data til SSI](https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/main/assets/ssi_2010_2016.xlsx) 
   * [Løsning til Seminar 6 (og 7)](https://htmlpreview.github.io/?https://github.com/uit-sok-2011-v23/uit-sok-2011-v23.github.io/blob/master/assets/sok-2011_seminar_6_code_2.html)
 * <a href="assets/Feed-forward utfordring 1.pdf"> Seminar 8 - Feed-forward innlevering 1</a>{:target="blank"}
-* <a href="assets/Seminar9.pdf"> Seminar 9 - Oppgaver</a>{:target="blank"}
+* <a href="assets/Seminar 9.pdf"> Seminar 9 - Oppgaver</a>{:target="blank"}
 
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
