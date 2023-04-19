@@ -18,6 +18,7 @@ Her finner du lenker til alle forelesninger på kurset. Siden oppdateres fortlø
 * <a href="assets/F10_SustDev3_globalfood.pdf"> F10 - Global tilgang til mat </a>
 * <a href="assets/F11_1_SustDev4_politikk_2023.04.11.pdf"> F11.1 - Politikk for bærekraftig utvikling </a>
 * <a href="assets/F11_SustDev4_politikk_2023.04.17.pdf"> F11.2 - Politikk for bærekraftig utvikling (hele forelesningen) </a>
+* <a href="assets/F13_Oppsummering.pdf"> F12 - Oppsummering </a>
 
 
 # Seminar
