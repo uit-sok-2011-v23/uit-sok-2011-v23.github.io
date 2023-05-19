@@ -42,6 +42,7 @@ Her finner du lenker til notater og ressurser til seminarene
 *  <a href="assets/FeedForward Seminar 2.pdf"> FeedForward Seminar innlevering (instruks) 2</a>{:target="blank"}
 *  <a href="assets/FeedForward_2.pdf"> FeedForward Seminar innlevering 2 (tips og triks/vanlige feil og mangler)</a>{:target="blank"}
 *  <a href="assets/Introduksjon til Podkast.pdf"> Introduksjon til Podkast</a>{:target="blank"}
+*  <a href="assets/Seminar_10.pdf"> Politikk for bærekraftig vekst i Tromsø</a>{:target="blank"}
 
 # Filmer
 * [Film F4: Solowmodellen med teknologi - matematisk utledning](https://youtu.be/lC-IczavEik)
